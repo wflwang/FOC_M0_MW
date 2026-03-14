@@ -1,0 +1,8 @@
+connect
+device HK32M070
+if SWD
+speed 4000
+loadbin build\hw_hk32m070_qfn32\hk32m070_foc_vesc.bin, 0x08000000
+r
+g
+exit
